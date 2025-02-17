@@ -15,10 +15,15 @@ public class TryCatchFinalExamples {
             System.out.println(nums[5]);
 
         }catch(ArithmeticException e) {
+
             System.out.println("Cannot divide by Zero"+ e);
+
         }catch(ArrayIndexOutOfBoundsException e) {
+
             System.out.println("Stay in your limit."+ e);
+
         }catch(Exception e) {
+
             System.out.println("Something went wrong"+ e);
         }
         System.out.println(j);
