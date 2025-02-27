@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class KthLargestEle {
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>(k);
 
         for(int num = 0; num < nums.length; num++){
             minHeap.offer(nums[num]);
